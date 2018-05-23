@@ -6,7 +6,7 @@ git clone https://github.com/demisjohn/CAMFR.git
 cd CAMFR
 cp machine_cfg.py.gcc machine_cfg.py
 echo 'include_dirs = ["/usr/include/python2.7", "/usr/lib/python2.7/numpy", "/usr/lib/python2.7/site-packages"]'
-sed -i 's#^include_dir.*#include_dir = ["/usr/include/python2.7", "/usr/lib/python2.7/numpy", "/usr/lib/python2.7/site-packages"]#g' machine_cfg.py
+sed -i 's#^include_dirs.*#include_dirs = ["/usr/include/python2.7", "/usr/lib/python2.7/numpy", "/usr/lib/python2.7/site-packages"]#g' machine_cfg.py
 cd camfr
 #gedit camfr_wrap.cpp 
 #change the #include line to 

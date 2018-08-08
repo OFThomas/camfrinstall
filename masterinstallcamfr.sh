@@ -1,5 +1,6 @@
 sudo apt-get update
-sudo apt-get install python-numpy python-scipy python-matplotlib* python-pil* scons libboost* libblitz* libblas* liblapack*
+#sudo apt-get install python-numpy
+sudo apt-get install -y python-scipy python-matplotlib* python-pil* scons libboost* libblitz* libblas* liblapack*
 git clone https://github.com/demisjohn/CAMFR.git
 #
 #
